@@ -18,11 +18,12 @@ List of Python code files:
 - "1_advection.mp4" is the animated video of the solution
 
 * Folder: Q2
-- "2_advection_diffusion.py" & "2_advection_diffusion.ipynb" solves the advection-Diffusion equation, and compares 2 diffusion coefficients: 0.5 and 0.05.
-- "2_advection_diffusion.mp4" is the animated video of the solution
+- "2_advection_diffusion.py" & "2_advection_diffusion.ipynb" solves the advection-Diffusion equation, and compares 2 diffusion coefficients: 0.5 and 0.05. Both explicit and implicit methods are included. There could be some problem with implicit method. Results from explicit method look more reasonable.
+- "2_advection_diffusion_explicit.mp4" is the animated video of the solution from explicit method.
+- "2_advection_diffusion_implicit.mp4" is the animated video of the solution from implicit method.
 
 * Folder: Q3
-- "3_1D_hydro_solver.py" & "3_1D_hydro_solve.ipynb" solves the 1D hydro euqations, and compares the effect of perterbation amplitude, width and sound speed
+- "3_1D_hydro_solver.py" & "3_1D_hydro_solve.ipynb" solves the 1D hydro euqations, and compares the effect of perterbation amplitude, width and sound speed. I followed the equations closely. The only doubts are I have are around how to update the boundary of velocity and flux. 
 - "3_1D_hydro_solver.mp4" is the animated video of the solution
 
 Answer to question 3:
